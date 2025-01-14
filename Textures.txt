@@ -1,0 +1,50 @@
+//Green Armour
+sprite ARMSA0,31,19{
+	offset 15,17
+	patch ARM1A0,0,0{}
+}
+sprite ARMSB0,31,19{
+	offset 0,-8
+	patch ARMSA0,0,0{}
+}
+graphic ARMER0,31,19{
+	offset 15,17
+	patch ARMSA0,0,0{translation "0:255=%[0,0,0]:[0.3,0.14,0]"}
+}
+
+
+//Blue Armour
+sprite ARMCB0,31,19{
+	offset 0,-8
+	patch ARMCA0,0,0{}
+}
+graphic ARMER1,31,19{
+	offset 15,17
+	patch ARMCA0,0,0{translation "0:255=%[0,0,0]:[0.3,0.14,0]"}
+}
+
+
+//HEV Armour
+graphic HEVAB0,31,19{
+	offset 15,17
+	patch HEVAA0,0,0{translation "0:255=%[0,0,0]:[0.3,0.14,0]"}
+}
+
+
+//Corporate Armour
+graphic CARMB0,31,19{
+	offset 15,17
+	patch CARMA0,0,0{translation "0:255=%[0,0,0]:[0.3,0.14,0]"}
+}
+
+
+
+//HuD Helmet
+Graphic "HELMB0", 14, 13
+{
+	Offset 7, 12
+	Patch "HELMA0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
