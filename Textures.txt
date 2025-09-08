@@ -1,0 +1,65 @@
+//Helmet
+Graphic "HELMB0", 16, 16
+{
+	Offset 7, 12
+	Patch "HELMA0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+//HEV Armour
+Graphic "HEVAB0", 35, 21
+{
+	Offset 15, 18
+	Patch "HEVAA0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+//Green Armour
+sprite ARMSB0,36,22{
+	offset 0,-8
+	patch ARMSA0,0,0{}
+}
+graphic ARMER0,36,22{
+	offset 15,18
+	patch ARMSA0,0,0{translation "0:255=%[0,0,0]:[0.3,0.14,0]"}
+}
+
+//Blue Armour
+sprite "ARMCB0",36,22
+{
+	offset 0,0
+	patch "ARMCA0", 0, 0 {}
+}
+
+graphic "ARMER1", 36, 22
+{
+	offset 15,18
+	patch "ARMCA0", 0, 0
+	{
+	translation "0:255=%[0,0,0]:[0.3,0.14,0]"
+	}
+}
+
+//Corporate Armour
+Graphic "CARMB1", 36, 22
+{
+	Offset 15, 18
+	Patch "CARMA0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+//Sneaking Suit
+Graphic "SNKSB0", 36, 22
+{
+	Offset 15, 18
+	Patch "SNKSA0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.20,0.20,0.20]"
+	}
+}
