@@ -62,4 +62,85 @@ Graphic "SNKSB0", 36, 22
 	{
 		Translation "0:255=%[0.00,0.00,0.00]:[0.20,0.20,0.20]"
 	}
+
+}
+
+
+// HHX Support
+Graphic "ARMOURG0", 36, 22
+{
+	Patch "ARMSA0", 0, 0
+}
+
+Graphic "ARMOURG1", 36, 22
+{
+	Patch "ARMOURG0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "ARMOURU0", 36, 22
+{
+	Patch "ARMCA0", 0, 0
+}
+
+Graphic "ARMOURU1", 36, 22
+{
+	Patch "ARMOURU0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "ARMOURC0", 36, 22
+{
+	Patch "CARMA0", 0, 0
+}
+
+Graphic "ARMOURC1", 36, 22
+{
+	Patch "ARMOURC0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "ARMOURH0", 35, 21
+{
+	Patch "HEVAA0", 0, 0
+}
+
+Graphic "ARMOURH1", 35, 21
+{
+	Patch "ARMOURH0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "ARMOURS0", 36, 22
+{
+	Patch "SNKSA0", 0, 0
+}
+
+Graphic "ARMOURS1", 36, 22
+{
+	Patch "ARMOURS0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "HELMETA0", 16, 16
+{
+	Patch "HELMA0", 0, 0
+}
+
+Graphic "HELMETA1", 16, 16
+{
+	Patch "HELMETA0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
 }
