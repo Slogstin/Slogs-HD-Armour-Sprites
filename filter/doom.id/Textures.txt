@@ -16,13 +16,11 @@ graphic "ARMER1",31,19{
 	patch "ARMCA0",0,0{translation "0:255=%[0,0,0]:[0.3,0.14,0]"}
 }
 
-
 //HEV Armour
 graphic "HEVAB0",31,19{
 	offset 15,18
 	patch "HEVAA0",0,0{translation "0:255=%[0,0,0]:[0.3,0.14,0]"}
 }
-
 
 //Corporate Armour
 graphic "CARMB0",31,19{
@@ -45,6 +43,86 @@ Graphic "HELMB0", 14, 13
 {
 	Offset 7, 12
 	Patch "HELMA0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+
+}
+
+// HHX Support
+Graphic "ARMOURG0", 31, 19
+{
+	Patch "ARMSA0", 0, 0
+}
+
+Graphic "ARMOURG1", 31, 19
+{
+	Patch "ARMOURG0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "ARMOURU0", 31, 19
+{
+	Patch "ARMCA0", 0, 0
+}
+
+Graphic "ARMOURU1", 31, 19
+{
+	Patch "ARMOURU0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "ARMOURC0", 31, 19
+{
+	Patch "CARMA0", 0, 0
+}
+
+Graphic "ARMOURC1", 31, 19
+{
+	Patch "ARMOURC0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "ARMOURH0", 31, 19
+{
+	Patch "HEVAA0", 0, 0
+}
+
+Graphic "ARMOURH1", 31, 19
+{
+	Patch "ARMOURH0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "ARMOURS0", 31, 19
+{
+	Patch "SNKSA0", 0, 0
+}
+
+Graphic "ARMOURS1", 31, 19
+{
+	Patch "ARMOURS0", 0, 0
+	{
+		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
+	}
+}
+
+Graphic "HELMETA0", 14, 13
+{
+	Patch "HELMA0", 0, 0
+}
+
+Graphic "HELMETA1", 14, 13
+{
+	Patch "HELMETA0", 0, 0
 	{
 		Translation "0:255=%[0.00,0.00,0.00]:[0.30,0.14,0.00]"
 	}
